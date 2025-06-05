@@ -37,7 +37,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
 #argon主题
-PACKAGES="$PACKAGES luci-theme-argon"
+#PACKAGES="$PACKAGES luci-theme-argon"
 #wireguard
 PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES kmod-wireguard"
