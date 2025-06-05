@@ -27,12 +27,41 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
+# 服务——FileBrowser 用户名admin 密码admin
+#PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
+#PACKAGES="$PACKAGES luci-app-argon-config"
+#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+#24.10
+PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES openssh-sftp-server"
+
+#argon主题
+PACKAGES="$PACKAGES luci-theme-argon"
+#wireguard
+PACKAGES="$PACKAGES luci-proto-wireguard"
+PACKAGES="$PACKAGES kmod-wireguard"
+PACKAGES="$PACKAGES wireguard-tools"
+#mwan3
+PACKAGES="$PACKAGES mwan3"
+PACKAGES="$PACKAGES luci-app-mwan3"
+PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
+#在线设备
+PACKAGES="$PACKAGES luci-app-onliner"
+#ddns-go
+PACKAGES="$PACKAGES ddns-go"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+#upnp
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES miniupnpd-nftables"
+#更新
+PACKAGES="$PACKAGES attendedsysupgrade-common"
+PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
+PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
+
+
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
