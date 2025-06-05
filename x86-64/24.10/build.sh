@@ -36,28 +36,30 @@ PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
+#argon主题
+PACKAGES="$PACKAGES luci-theme-argon"
 #wireguard
-PACKAGES="$PACKAGES luci-proto-wireguard
-PACKAGES="$PACKAGES kmod-wireguard
-PACKAGES="$PACKAGES wireguard-tools
+PACKAGES="$PACKAGES luci-proto-wireguard"
+PACKAGES="$PACKAGES kmod-wireguard"
+PACKAGES="$PACKAGES wireguard-tools"
 #mwan3
-PACKAGES="$PACKAGES mwan3
-PACKAGES="$PACKAGES luci-app-mwan3
-PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn
+PACKAGES="$PACKAGES mwan3"
+PACKAGES="$PACKAGES luci-app-mwan3"
+PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
 #在线设备
-PACKAGES="$PACKAGES luci-app-onliner
+PACKAGES="$PACKAGES luci-app-onliner"
 #ddns-go
-PACKAGES="$PACKAGES ddns-go
-PACKAGES="$PACKAGES luci-app-ddns-go
-PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn
+PACKAGES="$PACKAGES ddns-go"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 #upnp
-PACKAGES="$PACKAGES luci-app-upnp
-PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn
-PACKAGES="$PACKAGES miniupnpd-nftables
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES miniupnpd-nftables"
 #更新
-PACKAGES="$PACKAGES attendedsysupgrade-common
-PACKAGES="$PACKAGES luci-app-attendedsysupgrade
-PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn
+PACKAGES="$PACKAGES attendedsysupgrade-common"
+PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
+PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 
 
 # 增加几个必备组件 方便用户安装iStore
