@@ -37,17 +37,17 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
 #argon主题
-#PACKAGES="$PACKAGES luci-theme-argon"
+PACKAGES="$PACKAGES luci-theme-argon"
 #wireguard
 PACKAGES="$PACKAGES luci-proto-wireguard"
-PACKAGES="$PACKAGES kmod-wireguard"
-PACKAGES="$PACKAGES wireguard-tools"
+#PACKAGES="$PACKAGES kmod-wireguard"
+#PACKAGES="$PACKAGES wireguard-tools"
 #mwan3
 PACKAGES="$PACKAGES mwan3"
-PACKAGES="$PACKAGES luci-app-mwan3"
+#PACKAGES="$PACKAGES luci-app-mwan3"
 PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
 #在线设备
-PACKAGES="$PACKAGES luci-app-onliner"
+#PACKAGES="$PACKAGES luci-app-onliner"
 #ddns-go
 PACKAGES="$PACKAGES ddns-go"
 PACKAGES="$PACKAGES luci-app-ddns-go"
